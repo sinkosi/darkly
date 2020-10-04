@@ -1,0 +1,13 @@
+*.aux
+*.bbl
+*.blg
+*.fdb_*
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.out
+*x.gz
+*.toc
+Figures/

@@ -1,0 +1,162 @@
+\input{0.Extras/settings.tex}
+\makeindex
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\sectionmark}[1]{\markright{\spacedlowsmallcaps{#1}}} % The header for all pages (oneside) or for even pages (twoside)
+%\renewcommand{\subsectionmark}[1]{\markright{\thesubsection~#1}} % Uncomment when using the twoside option - this modifies the header on odd pages
+\lehead{\mbox{\llap{\small\thepage\kern1em\color{halfgray} \vline}\color{halfgray}\hspace{0.5em}\rightmark\hfil}} % The header style
+
+\pagestyle{scrheadings} % Enable the headers specified in this block
+
+\input{0.title/title.tex}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS & LISTS OF FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+\newpage
+%\maketitle % Print the title/author/date block
+
+\setcounter{tocdepth}{2} % Set the depth of the table of contents to show sections and subsections only
+
+\tableofcontents % Print the table of contents
+
+\newpage
+
+%\listoffigures % Print the list of figures
+
+%\listoftables % Print the list of tables
+
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+\section{Summary}
+
+Right now, you are probably developing a one-block app, with softwares and libraries
+installed directly in your development environment, or maybe in a virtual environment...
+\textbf{WeThinkCode\_} has provided students with two options.\\
+
+\paragraph{Imagine if your application has to be deployed all over the world and you have to re-
+develop it for all existing platforms and OS...}
+\subparagraph{Docker was created to satisfy this need for unification and normalisation: it makes it
+possible to split an application into several microservices, light, adaptable, universal and
+scalable, and it also gives the system administrators a great flexibility to deploy and scale
+up the app.}
+This suite of projects on Docker will help you better understand this specific tool, but
+also the various aspects of applications development using microservices.
+
+The aim of the Docker-1 project is to make you handle docker and docker-machine, the
+bases to understand the idea of containerization of services. You can see this project as
+an initiation.
+
+\section{Getting Started}
+
+\subsection{Windows}
+Windows Installation\textsuperscript{*}: Windows is trash\cite{Docker:Windows_Install}
+
+\subsection{Linux}
+\noindent Linux Installation\textsuperscript{**}: Begin by ensuring that you have docker\cite{Docker:Linux_Install} installed on your system, if not type:
+\begin{lstlisting}[language=bash]
+    $ sudo snap install docker
+\end{lstlisting}
+%\vfill
+\begin{figure}[h]
+    \centering
+    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
+    %\includegraphics[width=0.752\textwidth]{images/00-0.png}\\[0cm]  
+    \caption[Snap Install of Docker]{\emph{sudo snap install},\index{Docker Install} of Docker on Ubuntu}
+    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+    \label{fig:00-01 - terminal error VBoxManage} 
+\end{figure}
+
+%\vfill
+\subsection{MacOS}
+At the time of typing this document a Mac was not available to conduct testing
+but the documentation\cite{Docker:Mac_Install} does state that installation and setup occurs with a call
+to \emph{Homebrew} or an installation of Docker Desktop.
+%----------------------------------------------------------------------------------------
+%	AUTHOR AFFILIATIONS
+%----------------------------------------------------------------------------------------
+
+\let\thefootnote\relax\footnotetext{\textsuperscript{*} \textit{Information provided is correct for current users configuration i.e Windows Home 10:2004, results
+may differ for other configurations }}
+\let\thefootnote\relax\footnotetext{\textsuperscript{**} \textit{Snap install is not available for all Linux Distros, this is expected to work on Ubuntu and Debian flavours}}
+
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start the article content on the second page, remove this if you have a longer abstract that goes onto the second page
+
+
+%----------------------------------------------------------------------------------------
+%	Flag \#01
+%----------------------------------------------------------------------------------------
+
+\section{Flag \#01}
+%A statement requiring citation \cite{Figueredo:2009dg}.
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	Flag \#02
+%----------------------------------------------------------------------------------------
+
+\section{Flag \#02}
+
+%\input{2.method/method.tex}
+
+A Section or subsection covering extensively unit testing will be key either here or on it's own chapter
+\newpage
+%----------------------------------------------------------------------------------------
+%	Flag \#03
+%----------------------------------------------------------------------------------------
+
+\section{Flag \#03}
+
+%\input{3.results/result.tex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Flag \#04
+%----------------------------------------------------------------------------------------
+
+\section{Flag \#04}
+
+%Reference to Figure~\vref{fig:snippet}. % The \vref command specifies the location of the reference
+
+%\input{4.code_snip/code.tex}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\section{Bibliography}
+
+\renewcommand{\refname}{\spacedlowsmallcaps{References}} % For modifying the bibliography heading
+
+\bibliographystyle{unsrt}
+
+\bibliography{0.Extras/sample.bib} % The file containing the bibliography
+%\bibliography{sample2.bib}
+
+%----------------------------------------------------------------------------------------
+
+%\end{document}
+
+
+\section{Student Honesty Declaration}
+
+\input{16.cheat/cheat.tex}
+
+
+%---------------------------------------------------------------------------------------
+%\printindex
+
+\end{document}
