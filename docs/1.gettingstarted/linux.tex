@@ -33,7 +33,7 @@ default provided by Virtual Box.
 You will have to choose the 'type' of machine you are creating. At this point
 you must select 'Linux' as this is what the Darkly.iso is based from. You will
 be given options or 'flavours' to choose from. Pick 'Other 64-bit'. This is
-shown in Figure ~\Vref{fig:00-02 - Linux Virtual Box Operating System}.
+best shown in Figure ~\Vref{fig:00-02 - Linux Virtual Box Operating System}.
 
 Please do take note that the Darkly VM will not work if it is not 64-bit.
 
@@ -47,82 +47,99 @@ Please do take note that the Darkly VM will not work if it is not 64-bit.
     %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
     \label{fig:00-03 - Linux Virtual Box Memory Size} 
 \end{figure}
-Tell the system to use Linux
+Selecting a memory size is the next step. Darkly will not be actively running
+as another Virtual Machine would. Therefore only a limited amount of RAM is
+required. The recommended size is 512MB but in my opinion I believe 1024MB is
+the best.
+
+To set the memory size, a slide is used, as shown in Figure \Vref{fig:00-03 - Linux Virtual Box Memory Size}.
+
+You can also set it using manually by typing in the value.
 
 %---------------------
 \subsubsection{Hard Disk File Type}
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
     \includegraphics[width=0.752\textwidth]{images/00-03.png}\\[0cm]  
-    \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
-    \label{fig:00-04 - Linux Virtual Box Landing} 
+    \caption[Virtual Box]{Virtual Box Disk Type}
+    \label{fig:00-04 - Linux Virtual Box Disk Type} 
 \end{figure}
-Tell the system to use Linu
+Select VirtualBox Disk Image as shown in Figure \Vref{fig:00-04 - Linux Virtual Box Disk Type}.
+This is the best decision because the Machine will not be migrated to other
+Virtual Machine Players like VMWare etc. The use is short-term.
 
 %---------------------
 \subsubsection{Storage Type}
-
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
-    \includegraphics[width=0.752\textwidth]{images/00-05.png}\\[0cm]  
-    \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
-    \label{fig:00-05 - Linux Virtual Box Landing} 
+    \includegraphics[width=0.752\textwidth]{images/00-04.png}\\[0cm]  
+    \caption[Virtual Box]{Virtual Box Storage Type}
+    \label{fig:00-05 - Linux Virtual Box Storage Type} 
 \end{figure}
-Tell the system to use Linu
+Ensure that you have the size Dynamically allocated as shown in Figure \Vref{fig:00-05 - Linux Virtual Box Storage Type}.
+If you would like a fixed size, it is okay, but this entails your Hard Disk
+being allocated upfront.
+
+Please note, you have not selected your Hard Disk size so it is key to ensure
+you are aware of how much space you have free before allocating a fixed space size.
 
 %---------------------
 \subsubsection{File Location \& Size}
-
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
-    \includegraphics[width=0.752\textwidth]{images/00-06.png}\\[0cm]  
-    \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
-    \label{fig:00-06 - Linux Virtual Box Landing} 
+    \includegraphics[width=0.752\textwidth]{images/00-05.png}\\[0cm]  
+    \caption[Virtual Box]{Virtual Box Hard Disk Location and Size}
+    \label{fig:00-06 - Linux Virtual Box Hard Disk} 
 \end{figure}
+This is where you can set up the location for your Virtual Box Machine to
+store its data. Remember that the machine can be stored in one location but
+the simulation of its Hard Disk can be stored on a Flash Drive or External
+Drive if you wish.\\
 
-Tell the system to use Linu
-\subsubsection{Linux}
+I have decided to retain the local drive as the storage location. This is 
+the default VirtualBox directory. You can select any size you wish, I have
+selected 1,99GB to keep my box small as shown in Figure \Vref{fig:00-06 - Linux Virtual Box Hard Disk}.
+I can ammend this later if I need to.
 
+%---------------------
+\subsubsection{Mount Disk Image}
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
     \includegraphics[width=0.752\textwidth]{images/00-07.png}\\[0cm]  
-    \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
-    \label{fig:00-07 - Linux Virtual Box Landing} 
+    \caption[Virtual Box]{Virtual Box Setup of Disk Drive Mount Darkly.iso Image}
+    \label{fig:00-07 - Linux Virtual Box ISO Mount} 
 \end{figure}
+The next step is to mount the Darkly.iso disk as a form of storage. Click on
+your image 'Darkly' or whatever you may have named it, on the lefthand navigation
+panel as shown in Figure \Vref{fig:00-07 - Linux Virtual Box ISO Mount}.\\
 
-Tell the system to use Linu
-\subsubsection{Linux}
+Next click on Settings -> Storage -> IDE Secondary Master. After this, navigate
+to the folder where the ISO is located. Mount it and you will see it listed
+as shown in Figure \Vref{fig:00-07 - Linux Virtual Box ISO Mount}.\\
 
+Click Start (Green arrow pointing right) to commence running the image.
+
+%---------------------
+\subsubsection{Run Disk Image}
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
     \includegraphics[width=0.752\textwidth]{images/00-08.png}\\[0cm]  
-    \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+    \caption[Virtual Box]{Virtual Box Start-up Disk Selector}
     \label{fig:00-08 - Linux Virtual Box Landing} 
 \end{figure}
 
-Tell the system to use Linu
-\subsubsection{Linux}
 
+%---------------------
+\subsubsection{Running but Incomplete}
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
     \includegraphics[width=0.752\textwidth]{images/00-09.png}\\[0cm]  
     \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
     \label{fig:00-09 - Linux Virtual Box Landing} 
 \end{figure}
+As shown 
 
-Tell the system to use Linu
+%---------------------
 \subsubsection{Linux}
 
 \begin{figure}[!htb]
