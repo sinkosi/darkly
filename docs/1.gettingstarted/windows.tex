@@ -1,31 +1,27 @@
-Windows Installation\textsuperscript{*}: Windows is trash\cite{Docker:Windows_Install}
-\begin{lstlisting}[language=bash]
-    $ sudo apt-get install virtualbox
-\end{lstlisting}
-%\vfill
+Windows Installation\textsuperscript{*}: Ensure that you have the latest version
+of VirtualBox for Windows or download it from the \href{http://www.google.com}{VirtualBox Website} or
+Windows Store.
 
 \let\thefootnote\relax\footnotetext{\textsuperscript{*} \textit{Information provided is correct for current users configuration i.e Windows Home 10:2004, results
 may differ for other configurations }}
+
 %---------------------
 \subsubsection{Create Virtual Machine}
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
-    \includegraphics[width=0.752\textwidth]{images/00-0.png}\\[0cm]  
-    \caption[Virtual Box]{New Virtual Machine Setup}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+    \includegraphics[width=0.752\textwidth]{images/Win00-00.png}\\[0cm]  
+    \caption[Windows Virtual Box]{New Virtual Machine Setup}
     \label{fig:00-01 - Windows Virtual Box New VM} 
 \end{figure}
 Begin by Creating a new Virtual Machine. To do this click on the blue icon
-labelled new as shown in Figure \vref{fig:00-01 - Linux Virtual Box New VM}.
+labelled new as shown in Figure \vref{fig:00-01 - Windows Virtual Box New VM}.
 
 %---------------------
 \subsubsection{Name \& Operating System}
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
-    \includegraphics[width=0.752\textwidth]{images/00-01.png}\\[0cm]  
-    \caption[Virtual Box]{Setup Of Operating System Type and Name}
+    \includegraphics[width=0.752\textwidth]{images/Win00-01.png}\\[0cm]  
+    \caption[Windows Virtual Box]{Setup Of Operating System Type and Name}
     \label{fig:00-02 - Windows Virtual Box Operating System} 
 \end{figure}
 You have to give your Virtual Machine a new name, I have chosen 'Darkly'. Make
@@ -35,7 +31,7 @@ default provided by Virtual Box.
 You will have to choose the 'type' of machine you are creating. At this point
 you must select 'Linux' as this is what the Darkly.iso is based from. You will
 be given options or 'flavours' to choose from. Pick 'Other 64-bit'. This is
-best shown in Figure ~\Vref{fig:00-02 - Linux Virtual Box Operating System}.
+best shown in Figure ~\Vref{fig:00-02 - Windows Virtual Box Operating System}.
 
 Please do take note that the Darkly VM will not work if it is not 64-bit.
 
@@ -43,10 +39,8 @@ Please do take note that the Darkly VM will not work if it is not 64-bit.
 \subsubsection{Memory Size}
 \begin{figure}[!htb]
     \centering
-    %\insertcode{Scripts/example.pl}{Nena would be proud.} % The first argument is the script location/filename and the second is a caption for the listing
-    \includegraphics[width=0.752\textwidth]{images/00-02.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Memory Size Settings}
-    %from \url{http://localhost:3000/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+    \includegraphics[width=0.752\textwidth]{images/Win00-02.png}\\[0cm]  
+    \caption[Windows Virtual Box]{Virtual Box Memory Size Settings}
     \label{fig:00-03 - Windows Virtual Box Memory Size} 
 \end{figure}
 Selecting a memory size is the next step. Darkly will not be actively running
@@ -62,8 +56,8 @@ You can also set it using manually by typing in the value.
 \subsubsection{Hard Disk File Type}
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.752\textwidth]{images/00-03.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Disk Type}
+    \includegraphics[width=0.752\textwidth]{images/Win00-03.png}\\[0cm]  
+    \caption[Windows Virtual Box]{Virtual Box Disk Type}
     \label{fig:00-04 - Windows Virtual Box Disk Type} 
 \end{figure}
 Select VirtualBox Disk Image as shown in Figure \Vref{fig:00-04 - Windows Virtual Box Disk Type}.
@@ -75,7 +69,7 @@ Virtual Machine Players like VMWare etc. The use is short-term.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-04.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Storage Type}
+    \caption[Windows Virtual Box]{Virtual Box Storage Type}
     \label{fig:00-05 - Windows Virtual Box Storage Type} 
 \end{figure}
 Ensure that you have the size Dynamically allocated as shown in Figure \Vref{fig:00-05 - Windows Virtual Box Storage Type}.
@@ -90,7 +84,7 @@ you are aware of how much space you have free before allocating a fixed space si
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-05.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Hard Disk Location and Size}
+    \caption[Windows Virtual Box]{Virtual Box Hard Disk Location and Size}
     \label{fig:00-06 - Windows Virtual Box Hard Disk} 
 \end{figure}
 This is where you can set up the location for your Virtual Box Machine to
@@ -108,7 +102,7 @@ I can ammend this later if I need to.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-07.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Setup of Disk Drive Mount Darkly.iso Image}
+    \caption[Windows Virtual Box]{Virtual Box Setup of Disk Drive Mount Darkly.iso Image}
     \label{fig:00-07 - Windows Virtual Box ISO Mount} 
 \end{figure}
 The next step is to mount the Darkly.iso disk as a form of storage. Click on
@@ -126,7 +120,7 @@ Click Start (Green arrow pointing right) to commence running the image.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-08.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Start-up Disk Selector}
+    \caption[Windows Virtual Box]{Virtual Box Start-up Disk Selector}
     \label{fig:00-08 - Windows Virtual Box Startup Disk Selector} 
 \end{figure}
 As shown in Figure ~\vref{fig:00-08 - Windows Virtual Box Startup Disk Selector},
@@ -138,7 +132,7 @@ then complete the Installation process.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-09.png}\\[0cm]  
-    \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
+    \caption[Windows Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
     \label{fig:00-09 - Windows Virtual Box Running not complete} 
 \end{figure}
 You have successfully installed the VM and it is running. The IP address is
@@ -152,7 +146,7 @@ This needs you to go to settings as shown in Figure \vref{fig:00-10 - Windows Vi
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-10.png}\\[0cm]  
-    \caption[Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
+    \caption[Windows Virtual Box]{\emph{Virtual Box Landing}, on Ubuntu}
     \label{fig:00-10 - Windows Virtual Box Set Bridge} 
 \end{figure}
 On the lefthand navigation-bar, Select Network -> Adaptor 1.
@@ -165,7 +159,7 @@ to a 'Bridge' connection. as shown in Figure \vref{fig:00-10 - Windows Virtual B
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-11.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Loading Screen Splash with Hitchhiker's Guide Robot}
+    \caption[Windows Virtual Box]{Virtual Box Loading Screen Splash with Hitchhiker's Guide Robot}
     \label{fig:00-11 - Windows Virtual Box LoadingScreen1} 
 \end{figure}
 \subparagraph{Don't Panic, it's just a loading screen}
@@ -175,7 +169,7 @@ to a 'Bridge' connection. as shown in Figure \vref{fig:00-10 - Windows Virtual B
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-12.png}\\[0cm]  
-    \caption[Virtual Box]{More Virtual Box Loading Screens}
+    \caption[Windows Virtual Box]{More Virtual Box Loading Screens}
     \label{fig:00-12 - Windows Virtual Box LoadingScreen2} 
 \end{figure}
 If you are seeing the figure shown in Figure \vref{fig:00-12 - Windows Virtual Box LoadingScreen2}
@@ -187,7 +181,7 @@ you are making good progress and must hang in there.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-13.png}\\[0cm]  
-    \caption[Virtual Box]{Virtual Box Fully Loaded Screen with IP Address \& Prompt}
+    \caption[Windows Virtual Box]{Virtual Box Fully Loaded Screen with IP Address \& Prompt}
     \label{fig:00-13 - Windows Virtual Box LoadedIP} 
 
 \end{figure}
@@ -200,7 +194,7 @@ You should see a similar figure to that shown in Figure \vref{fig:00-13 - Window
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{images/00-14.png}\\[0cm]  
-    \caption[Virtual Box]{BornToSec Homepage}
+    \caption[Windows Virtual Box]{BornToSec Homepage}
     \label{fig:00-14 - Windows Virtual Box HomePage} 
 \end{figure}
 If you see the same figure on your screen as the one shown on Figure \vref{fig:00-14 - Windows Virtual Box HomePage},
