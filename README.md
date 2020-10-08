@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-If you wish to get started with please read the [Documentation](docs/documentation.pdf)
+Eddie Murphy is really funny!
 
 ### FLAGS
 
@@ -21,4 +21,4 @@ If you wish to get started with please read the [Documentation](docs/documentati
 13. [F](13%20-%20Flag/Resources/13.md)
 14. [F](14%20-%20Flag/Resources/14.md)
 
-Eddie Murphy is really funny!
+If you wish to get started with this project please read the [Documentation](docs/documentation.pdf) that I have made.

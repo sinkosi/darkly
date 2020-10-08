@@ -11,3 +11,6 @@
 *x.gz
 *.toc
 Figures/
+
+!*.pdf
+#docs/
