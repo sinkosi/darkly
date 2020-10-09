@@ -6,6 +6,7 @@
 *.idx
 *.ilg
 *.ind
+*.lof
 *.log
 *.out
 *x.gz
