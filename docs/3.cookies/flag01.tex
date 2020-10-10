@@ -1,5 +1,9 @@
 \subsection{Flag \#01}
 \paragraph{df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3}
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{3.cookies/01-03.png}\\[0cm] 
+\end{center}
+
 \subsubsection{Vulnerability}
 \begin{figure}[!htb]
     \centering
@@ -56,5 +60,5 @@ According to OWASP\cite{OWASP} these are the steps one can take:
     \item Make sure that all session identifiers are transmitted over an encrypted protocol.
     \item Terminate/regenerate the session if the session token is transmitted insecurely (either in clear text or as part of the URL), or signal to the application to do so.
     \item Enforce the Secure and HttpOnly flags on sensitive cookies using a Web Application Firewall.
-    \item Ensure that session identifiers are transmitted only using the SSL session where they originated. Track sessions across SSL renegotiations and integrate with framework solutions to support common SSL termination/reencryption architectures.
+    \item Ensure that session identifiers are transmitted only using the SSL session where they originated. Track sessions across SSL renegotiations and integrate with framework solutions to support common SSL termination/re-encryption architectures.
 \end{itemize}
