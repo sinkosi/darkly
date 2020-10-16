@@ -6,33 +6,60 @@ Eddie Murphy is really funny!
 
 ### FLAGS
 
-#### Header 00
+#### Flag 00. SQL Injection (Basic)
 
-[F](14%20-%20Flag/Resources/14.md)
+[F](00%20-%20Flag/Resources/00.md)
 
-#### 01. Header
+#### Flag 01. SQL Injection (Advanced)
 
-[df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3](01%20-%20Flag/Resources/01.md)
+[a](01%20-%20Flag/Resources/01.md)
 
-#### 02. Header2
+#### Flag 02. Include
 
 [F](02%20-%20Flag/Resources/02.md)
 
-#### 03. Header3
+#### Flag 03. XSS Basic
 
 [F](03%20-%20Flag/Resources/03.md)
 
-#### 04. Head
+#### Flag 04. Cookies
 
-[F](04%20-%20Flag/Resources/04.md)
-5. [F](05%20-%20Flag/Resources/05.md)
-6. [F](06%20-%20Flag/Resources/06.md)
-7. [F](07%20-%20Flag/Resources/07.md)
-8. [F](08%20-%20Flag/Resources/08.md)
-9.  [F](09%20-%20Flag/Resources/09.md)
-10. [F](10%20-%20Flag/Resources/10.md)
-11. [F](11%20-%20Flag/Resources/11.md)
-12. [F](12%20-%20Flag/Resources/12.md)
-13. [F](13%20-%20Flag/Resources/13.md)
+[df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3](04%20-%20Flag/Resources/04.md)
+
+#### Flag 05. Spoof (Curl)
+
+[F](05%20-%20Flag/Resources/05.md)
+
+#### Flag 06. Admin (htpasswd)
+
+[F](06%20-%20Flag/Resources/06.md)
+
+#### Flag 07. Bruteforce (member)
+
+[F](07%20-%20Flag/Resources/07.md)
+
+#### Flag 08. File Upload
+
+[F](08%20-%20Flag/Resources/08.md)
+
+#### Flag 09. Redirect
+
+[F](09%20-%20Flag/Resources/09.md)
+
+#### Flag 010. Guess (hidden folder)
+
+[F](10%20-%20Flag/Resources/10.md)
+
+#### Flag 011. Survey
+
+[F](11%20-%20Flag/Resources/11.md)
+
+#### Flag 012. Recover
+
+[F](12%20-%20Flag/Resources/12.md)
+
+#### Flag 013. JS Var
+
+[F](13%20-%20Flag/Resources/13.md)
 
 If you wish to get started with this project please read the [Documentation](docs/documentation.pdf) that I have made.
