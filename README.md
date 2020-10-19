@@ -1,10 +1,27 @@
-# Darkly
+# Darkly 🙀 <!-- omit in toc -->
 
-## Getting Started
+- [Flags 🏴](#flags-)
+  - [Flag 00. SQL Injection (Basic)](#flag-00-sql-injection-basic)
+  - [Flag 01. SQL Injection (Advanced)](#flag-01-sql-injection-advanced)
+  - [Flag 02. Include](#flag-02-include)
+  - [Flag 03. XSS Basic](#flag-03-xss-basic)
+  - [Flag 04. Cookies](#flag-04-cookies)
+  - [Flag 05. Spoof (Curl)](#flag-05-spoof-curl)
+  - [Flag 06. Admin (htpasswd)](#flag-06-admin-htpasswd)
+  - [Flag 07. Bruteforce (member)](#flag-07-bruteforce-member)
+  - [Flag 08. File Upload](#flag-08-file-upload)
+  - [Flag 09. Redirect](#flag-09-redirect)
+  - [Flag 010. Guess (hidden folder)](#flag-010-guess-hidden-folder)
+  - [Flag 011. Survey](#flag-011-survey)
+  - [Flag 012. Recover](#flag-012-recover)
+  - [Flag 013. JS Var](#flag-013-js-var)
+- [Documentation 📘](#documentation-)
+
+## Getting Started 👾 <!-- omit in toc -->
 
 Eddie Murphy is really funny!
 
-### FLAGS
+### Flags 🏴
 
 #### Flag 00. SQL Injection (Basic)
 
@@ -61,5 +78,7 @@ Eddie Murphy is really funny!
 #### Flag 013. JS Var
 
 [F](13%20-%20Flag/Resources/13.md)
+
+### Documentation 📘
 
 If you wish to get started with this project please read the [Documentation](docs/documentation.pdf) that I have made.
