@@ -3,7 +3,7 @@
 - [Flags 🏴](#flags-)
   - [Flag 00. SQL Injection (Basic)](#flag-00-sql-injection-basic)
   - [Flag 01. SQL Injection (Advanced)](#flag-01-sql-injection-advanced)
-  - [Flag 02. Include](#flag-02-include)
+  - [Flag 02. Include (NSA Image)](#flag-02-include-nsa-image)
   - [Flag 03. XSS Basic](#flag-03-xss-basic)
   - [Flag 04. Cookies](#flag-04-cookies)
   - [Flag 05. Spoof (Curl)](#flag-05-spoof-curl)
@@ -25,19 +25,19 @@ Eddie Murphy is really funny!
 
 #### Flag 00. SQL Injection (Basic)
 
-[F](00%20-%20Flag/Resources/00.md)
+[10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5](00%20-%20Flag/Resources/00.md)
 
 #### Flag 01. SQL Injection (Advanced)
 
-[a](01%20-%20Flag/Resources/01.md)
+[f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188](01%20-%20Flag/Resources/01.md)
 
-#### Flag 02. Include
+#### Flag 02. Include (NSA Image)
 
-[F](02%20-%20Flag/Resources/02.md)
+[928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d](02%20-%20Flag/Resources/02.md)
 
 #### Flag 03. XSS Basic
 
-[F](03%20-%20Flag/Resources/03.md)
+[0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e](03%20-%20Flag/Resources/03.md)
 
 #### Flag 04. Cookies
 
