@@ -1,4 +1,5 @@
-\subsection{Flag \#01}
+\section{Flag 04 - Cookies}
+
 \paragraph{df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3}
 \begin{center}
     \includegraphics[width=0.5\textwidth]{07.Flag04/01-03.png}\\[0cm] 
@@ -6,9 +7,10 @@
 
 It's possible for an attacker to steal and reuse
 session identifiers or other sensitive cookie values
-when they are stored or transmitted insecurely\cite{OWASP}.
+when they are stored or transmitted insecurely\cite{OWASPCookie}.
 
-\subsubsection{Vulnerability}
+\subsection{Vulnerability}
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.752\textwidth]{07.Flag04/01-01.png}\\[0cm]  
@@ -16,12 +18,13 @@ when they are stored or transmitted insecurely\cite{OWASP}.
     \label{fig:03-01 - Firefox rejects cookie iamadmin} 
 \end{figure}
 A cookie Vulnerability which is identified by OWASP as a
-method to 'session-jack'\cite{OWASP}.
+method to 'session-jack'\cite{OWASPCookie}.
 
-\subsubsection{Location}
+\subsection{Location}
+
 <ip-address>:80/index.php but also throughout the Web Application.
 
-\subsubsection{Method}
+\subsection{Method}
 
 I was immediately alerted by my console, for inspecting elements on
 a webpage that there was something wrong with the cookie.
@@ -41,7 +44,7 @@ After refreshing the browser, the flag was returned.
 
 The string 'true' = b326b5062b2f0e69046810717534cb09
 
-\subsubsection{Tools}
+\subsection{Tools}
 
 \begin{figure}[!htb]
     \centering
@@ -57,9 +60,9 @@ The tools that I used were the console output of the 'Inspection Tool'
 and the website \href{http://www.hashes.com}{hashes.com} in order to work
 with the hashes.
 
-\subsubsection{Remedy}
+\subsection{Remedy}
 
-According to OWASP\cite{OWASP} these are the steps one can take:
+According to OWASP\cite{OWASPCookie} these are the steps one can take:
 \begin{itemize}
     \item Make sure that all session identifiers are transmitted over an encrypted protocol.
     \item Terminate/regenerate the session if the session token is transmitted insecurely (either in clear text or as part of the URL), or signal to the application to do so.
