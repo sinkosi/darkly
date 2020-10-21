@@ -53,11 +53,11 @@ Eddie Murphy is really funny!
 
 #### Flag 07. Bruteforce (member)
 
-[F](07%20-%20Flag/Resources/07.md)
+[b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2](07%20-%20Flag/Resources/07.md)
 
 #### Flag 08. File Upload
 
-[F](08%20-%20Flag/Resources/08.md)
+[46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8](08%20-%20Flag/Resources/08.md)
 
 #### Flag 09. Redirect
 
@@ -73,7 +73,7 @@ Eddie Murphy is really funny!
 
 #### Flag 012. Recover
 
-[F](12%20-%20Flag/Resources/12.md)
+[1D4855F7337C0C14B6F44946872C4EB33853F40B2D54393FBE94F49F1E19BBB0](12%20-%20Flag/Resources/12.md)
 
 #### Flag 013. NSA Image
 
