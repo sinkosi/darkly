@@ -45,7 +45,7 @@ Eddie Murphy is really funny!
 
 #### Flag 05. Spoof (Curl)
 
-[F](05%20-%20Flag/Resources/05.md)
+[f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188](05%20-%20Flag/Resources/05.md)
 
 #### Flag 06. Admin (htpasswd)
 
