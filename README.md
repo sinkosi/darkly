@@ -3,7 +3,7 @@
 - [Flags 🏴](#flags-)
   - [Flag 00. SQL Injection (Basic)](#flag-00-sql-injection-basic)
   - [Flag 01. SQL Injection (Advanced)](#flag-01-sql-injection-advanced)
-  - [Flag 02. Include (NSA Image)](#flag-02-include-nsa-image)
+  - [Flag 02. Include](#flag-02-include)
   - [Flag 03. XSS Basic](#flag-03-xss-basic)
   - [Flag 04. Cookies](#flag-04-cookies)
   - [Flag 05. Spoof (Curl)](#flag-05-spoof-curl)
@@ -14,7 +14,7 @@
   - [Flag 010. Guess (hidden folder)](#flag-010-guess-hidden-folder)
   - [Flag 011. Survey](#flag-011-survey)
   - [Flag 012. Recover](#flag-012-recover)
-  - [Flag 013. JS Var](#flag-013-js-var)
+  - [Flag 013. NSA Image](#flag-013-nsa-image)
 - [Documentation 📘](#documentation-)
 
 ## Getting Started 👾 <!-- omit in toc -->
@@ -31,9 +31,9 @@ Eddie Murphy is really funny!
 
 [f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188](01%20-%20Flag/Resources/01.md)
 
-#### Flag 02. Include (NSA Image)
+#### Flag 02. Include
 
-[928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d](02%20-%20Flag/Resources/02.md)
+[b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0](02%20-%20Flag/Resources/02.md)
 
 #### Flag 03. XSS Basic
 
@@ -49,7 +49,7 @@ Eddie Murphy is really funny!
 
 #### Flag 06. Admin (htpasswd)
 
-[F](06%20-%20Flag/Resources/06.md)
+[d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff](06%20-%20Flag/Resources/06.md)
 
 #### Flag 07. Bruteforce (member)
 
@@ -75,9 +75,9 @@ Eddie Murphy is really funny!
 
 [F](12%20-%20Flag/Resources/12.md)
 
-#### Flag 013. JS Var
+#### Flag 013. NSA Image
 
-[F](13%20-%20Flag/Resources/13.md)
+[928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d](13%20-%20Flag/Resources/13.md)
 
 ### Documentation 📘
 
