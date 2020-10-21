@@ -61,7 +61,7 @@ Eddie Murphy is really funny!
 
 #### Flag 09. Redirect
 
-[F](09%20-%20Flag/Resources/09.md)
+[B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3](09%20-%20Flag/Resources/09.md)
 
 #### Flag 010. Guess (hidden folder)
 
@@ -69,7 +69,7 @@ Eddie Murphy is really funny!
 
 #### Flag 011. Survey
 
-[F](11%20-%20Flag/Resources/11.md)
+[03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA](11%20-%20Flag/Resources/11.md)
 
 #### Flag 012. Recover
 
