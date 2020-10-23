@@ -1,5 +1,7 @@
 # Darkly 🙀 <!-- omit in toc -->
 
+- [Install Virtual Box](#install-virtual-box)
+- [Download Darkly ISO](#download-darkly-iso)
 - [Flags 🏴](#flags-)
   - [Flag 00. SQL Injection (Basic)](#flag-00-sql-injection-basic)
   - [Flag 01. SQL Injection (Advanced)](#flag-01-sql-injection-advanced)
@@ -14,12 +16,26 @@
   - [Flag 010. Guess (hidden folder)](#flag-010-guess-hidden-folder)
   - [Flag 011. Survey](#flag-011-survey)
   - [Flag 012. Recover](#flag-012-recover)
-  - [Flag 013. NSA Image](#flag-013-nsa-image)
+  - [Flag 013. Media XSS (NSA Image)](#flag-013-media-xss-nsa-image)
 - [Documentation 📘](#documentation-)
+- [Contributors](#contributors)
 
 ## Getting Started 👾 <!-- omit in toc -->
 
-Eddie Murphy is really funny!
+### Install Virtual Box
+
+- [Windows](https://download.virtualbox.org/virtualbox/6.1.16/VirtualBox-6.1.16-140961-Win.exe)
+- [MacOS](https://download.virtualbox.org/virtualbox/6.1.16/VirtualBox-6.1.16-140961-OSX.dmg)
+- [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
+
+### Download Darkly ISO
+
+- [Darkly.iso](https://drive.google.com/file/d/145dbZHjZWyMiRscj-72jE3n5PM5vXyB9/view?usp=sharing)
+
+----------
+To link the Darkly.iso with VirtualBox please read the [Documentation](docs/documentation.pdf) that I have written.
+
+----------
 
 ### Flags 🏴
 
@@ -75,10 +91,15 @@ Eddie Murphy is really funny!
 
 [1D4855F7337C0C14B6F44946872C4EB33853F40B2D54393FBE94F49F1E19BBB0](12%20-%20Flag/Resources/12.md)
 
-#### Flag 013. NSA Image
+#### Flag 013. Media XSS (NSA Image)
 
 [928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d](13%20-%20Flag/Resources/13.md)
 
 ### Documentation 📘
 
-If you wish to get started with this project please read the [Documentation](docs/documentation.pdf) that I have made.
+If you wish to get started with this project please read the [Documentation](docs/documentation.pdf) that I have written.
+
+### Contributors
+
+- Sibonelo Nkosi
+- Mosima Mamaleka

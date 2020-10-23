@@ -12,6 +12,7 @@
 *x.gz
 *.toc
 Figures/
-
+.vscode/
+10 - Flag/Resources/.hidden/
 !*.pdf
 #docs/
