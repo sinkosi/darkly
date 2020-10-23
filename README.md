@@ -81,7 +81,7 @@ To link the Darkly.iso with VirtualBox please read the [Documentation](docs/docu
 
 #### Flag 010. Guess (hidden folder)
 
-[F](10%20-%20Flag/Resources/10.md)
+[99dde1d35d1fdd283924d84e6d9f1d820](10%20-%20Flag/Resources/10.md)
 
 #### Flag 011. Survey
 
