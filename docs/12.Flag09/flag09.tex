@@ -1,16 +1,54 @@
 \section{Flag 09 - Redirect}
 
-%\paragraph{df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3}
-\begin{center}
-    %\includegraphics[width=0.5\textwidth]{3.cookies/01-03.png}\\[0cm] 
-\end{center}
+\paragraph{B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3}
+% \begin{center}
+%     %\includegraphics[width=0.5\textwidth]{12.Flag09}\\[0cm] 
+% \end{center}
 
 \subsection{Vulnerability}
 
+The footer is redirecting users using functions \& variables rather than a standard href or other safer methods. These open redirects could easily take someone to clone websites of `Facebook`, `Twitter` or `Instagram` and steal login credentials.
+
 \subsection{Location}
+
+`http://<ip-address>:80/index.php?page=redirect\&site=`
 
 \subsection{Method}
 
+On any page of the VM site where the footer is visible i.e Facebook, Twitter \& Instagram icons are visible. Use your web browser to inspect those objects and you will see that they are reached via a redirect.
+
+```
+
+<ul class="icons">
+
+    <li><a href="index.php?page=redirect\&site=facebook" class="icon fa-facebook"></a></li>
+
+    <li><a href="index.php?page=redirect\&site=twitter" class="icon fa-twitter"></a></li>
+    
+    <li><a href="index.php?page=redirect\&site=instagram" class="icon fa-instagram"></a></li>
+
+</ul>
+
+```
+
+The key thing to do next is to edit any of the links, primarily by removing the text following `site=` e.g `site=facebook`. On any of the three links provided, if this is left blank and you click on the link, the flag will be returned on the page that opens.
+
+
 \subsection{Tools}
 
+\begin{itemize}
+    \item \href{https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html}{OWASP}
+    \item \href{https://www.zaproxy.org/docs/alerts/20019/}{ZAP External Redirect}
+    \item \href{https://portswigger.net/kb/issues/00500100_open-redirection-reflected}{PortSwigger}
+    \item \href{https://www.hostinger.com/tutorials/php-redirect}{Hostinger}
+    \item \href{https://www.welivesecurity.com/2007/11/07/whats-a-redirect-and-why-is-it-bad/}{ESET}
+\end{itemize}
+
 \subsection{Remedy}
+
+\begin{itemize}
+    \item RFC 7231 allows you to use both, but you should be extremely careful when using relative redirects. That’s because some website builders collate and rename PHP pages. This means that if you are working on your PHP through a website builder, you may end up breaking all of your redirects.
+    \item Unfortunately, at the moment there is no real way around this problem, short of keeping a careful overview of where your redirects are pointing
+    \item The third problem with standard PHP redirects is that PHP’s “location” operator still returns the HTTP 302 code. You should not allow it to do that, because many web browsers implement this code in a way that is totally at odds with the way that it is supposed to function: they essentially use the GET command instead of performing a “real” redirect.
+    \item The best practice when building PHP redirects is therefore to specify the code that is returned. Unfortunately, the correct code to use is a point of contention. HTTP 301 indicates a permanent redirect
+\end{itemize}
