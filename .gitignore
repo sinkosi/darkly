@@ -11,9 +11,10 @@
 *.out
 *x.gz
 *.toc
+*.tex
 Figures/
 .vscode/
 10 - Flag/Resources/.hidden/
 !*.pdf
-docs/
+docs/*/
 Darkly_i386.iso
